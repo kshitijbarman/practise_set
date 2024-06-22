@@ -1,0 +1,264 @@
+5)      #include <stdio.h>
+
+int main()
+{
+    int week_days;
+    printf("Enter the no: ");
+    scanf("%d",&week_days);
+    
+    switch(week_days)
+    {
+        case 1:
+        printf("Monday");
+        break;
+         case 2:
+        printf("Tuesday");
+        break;
+         case 3:
+        printf("Wednesday");
+        break;
+         case 4:
+        printf("Thusday");
+        break;
+         case 5:
+        printf("Friday");
+        break;
+         case 6:
+        printf("Saturday");
+        break;
+         case 7:
+        printf("Sunday");
+        break;
+        
+        default:
+        printf("wrong no:");
+          
+    }
+
+    return 0;
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+6)      #include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter the no: ");
+    scanf("%d",&num);
+    
+    if(num%2==0)
+    {
+        printf("%d is even no:",num);
+    }
+    else
+    {
+        printf("%d is odd no:",num);
+    }
+
+    return 0;
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+7)   #include <stdio.h>
+
+int main()
+{
+    int i;
+    for(i=1 ;i<=100 ;i++)
+    {
+        if(i%2!=0)
+        {
+           printf("%d\n",i); 
+            
+        }
+      
+    }
+   return 0;
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+8)         #include <stdio.h>
+
+int main()
+{
+    int i, num1,num2;
+    printf("Enter the two no: ");
+    scanf("%d %d",&num1,&num2);
+    
+    for(i=num1+1 ;i<num2 ;i++)
+    {
+        printf("%d ",i);
+    }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+9)        #include <stdio.h>
+
+int main()
+{
+    int i, num1,num2;
+    printf("Enter the two no: ");
+    scanf("%d %d",&num1,&num2);
+    
+    for(i=num1+1 ;i<num2 ;i++)
+    {
+        if(i%2==0)
+        {
+        printf("%d ",i);
+
+        }
+       
+    }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+4)         #include <stdio.h>
+
+int main()
+{
+   char name;
+   printf("Enter any letter:");
+   scanf("%c",&name);
+   
+   if(name=='m')
+   {
+       printf("Male");
+   }
+   else if (name=='f')
+   {
+        printf("Female");
+   }
+   else
+   {
+        printf("Others");
+   }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2)      #include <stdio.h>
+
+int main()
+{
+   char name;
+   printf("Enter any letter:");
+   scanf("%c",&name);
+   
+  if(name=='a','e','i','o','u')
+  {
+    printf("vowel");
+  }
+  else
+  {
+    printf("consonant");
+  }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+2)      #include <stdio.h>
+
+int main()
+{
+   char name;
+   printf("Enter any letter:");
+   scanf("%c",&name);
+   
+  //if(name=='a','e','i','o','u')
+
+  if(name=='a'||
+  name=='e'||
+  name=='i'||
+  name=='o'||
+  name=='u')
+  {
+    printf("vowel");
+  }
+  else
+  {
+    printf("consonant");
+  }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+1)      #include <stdio.h>
+
+int main()
+{
+  int num1;
+  printf("Enter the no: ");
+  scanf("%d",&num1);
+  
+  if(num1<0)
+  {
+      printf("%i is negative integer ",num1);
+  }
+  else if(num1==0)
+  {
+       printf("%i is zero ",num1);
+  }
+  else
+  {
+       printf("%i is possitive integer ",num1);
+  }
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+3)    #include <stdio.h>
+
+int main()
+{
+  char name;
+  printf("Enter the no: ");
+  scanf("%c",&name);
+  
+  if(name>='a')
+  {
+      printf("%c lower case ",name);
+  }
+  else if(name>='A')
+  {
+       printf("%c upper case ",name);
+  }
+  
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+10)   neon no:
+
+      #include <stdio.h>
+
+int main()
+{
+    int num1,b,c,r;
+    printf("Enter the no: ");
+    scanf("%d",&num1);
+    b=num1*num1;
+    printf("%d\n",b);
+    c=b/10;
+    r=b%10;
+    printf("%d",c+r);
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Armstrong no 
+
+      #include <stdio.h>
+
+int main()
+{
+    int num,c,r,arm=0;
+    printf("Enter any no: ");
+    scanf("%d",&num);
+    c=num;
+    while(num>0)
+    {
+        r=num%10;
+        arm=r*r*r+arm;
+        num=num/10;
+     
+    }
+    if(c==arm)
+    {
+        printf(" armstrong number");
+    }
+    else
+    {
+        printf("not a armstrong no:");
+    }
+    
+
+    return 0;
+}
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
